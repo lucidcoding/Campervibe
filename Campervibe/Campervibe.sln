@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Campervibe.External.UI", "Campervibe.External.UI\Campervibe.External.UI.csproj", "{7F145E2A-D471-42C0-8CA1-87C11383234F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Campervibe.Domain", "Campervibe.Domain\Campervibe.Domain.csproj", "{DD7142B6-4F33-4E1B-AC43-BDDEE64EE769}"
@@ -21,9 +23,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Campervibe.Internal.UI", "Campervibe.Internal.UI\Campervibe.Internal.UI.csproj", "{116BBC29-B8B3-4D7D-BA93-C032ADA3D91D}"
 EndProject
 Global
-	GlobalSection(TestCaseManagementSettings) = postSolution
-		CategoryFile = Marathon.vsmdi
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -56,5 +55,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = Marathon.vsmdi
 	EndGlobalSection
 EndGlobal

@@ -9,3 +9,8 @@ C:\Users\daviesp\Downloads\MicroserviceMigration\MicroserviceMigration\Campervib
 C:\Users\daviesp\Downloads\MicroserviceMigration\MicroserviceMigration\Campervibe\Campervibe.Domain\obj\Debug\Campervibe.Domain.csprojResolveAssemblyReference.cache
 C:\Users\daviesp\Downloads\MicroserviceMigration\MicroserviceMigration\Campervibe\Campervibe.Domain\obj\Debug\Campervibe.Domain.dll
 C:\Users\daviesp\Downloads\MicroserviceMigration\MicroserviceMigration\Campervibe\Campervibe.Domain\obj\Debug\Campervibe.Domain.pdb
+C:\Code\Campervibe\Campervibe\Campervibe.Domain\bin\Debug\Campervibe.Domain.dll.config
+C:\Code\Campervibe\Campervibe\Campervibe.Domain\bin\Debug\Campervibe.Domain.dll
+C:\Code\Campervibe\Campervibe\Campervibe.Domain\bin\Debug\Campervibe.Domain.pdb
+C:\Code\Campervibe\Campervibe\Campervibe.Domain\obj\Debug\Campervibe.Domain.dll
+C:\Code\Campervibe\Campervibe\Campervibe.Domain\obj\Debug\Campervibe.Domain.pdb

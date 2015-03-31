@@ -79,6 +79,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="SqlScripts\00001_AzureCreateDatabases.sql" />
     <Content Include="SqlScripts\00001_CreateDatabases.sql" />
   </ItemGroup>
   <ItemGroup>

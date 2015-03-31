@@ -154,6 +154,8 @@ C:\Code\Campervibe\Campervibe\Campervibe.External.UI\bin\System.Net.Http.Extensi
 C:\Code\Campervibe\Campervibe\Campervibe.External.UI\bin\System.Net.Http.Formatting.dll
 C:\Code\Campervibe\Campervibe\Campervibe.External.UI\bin\System.Net.Http.Primitives.dll
 C:\Code\Campervibe\Campervibe\Campervibe.External.UI\bin\System.Web.Helpers.dll
+C:\Code\Campervibe\Campervibe\Campervibe.External.UI\bin\System.Web.Http.dll
+C:\Code\Campervibe\Campervibe\Campervibe.External.UI\bin\System.Web.Http.WebHost.dll
 C:\Code\Campervibe\Campervibe\Campervibe.External.UI\bin\System.Web.Mvc.dll
 C:\Code\Campervibe\Campervibe\Campervibe.External.UI\bin\System.Web.Optimization.dll
 C:\Code\Campervibe\Campervibe\Campervibe.External.UI\bin\System.Web.Razor.dll
@@ -184,6 +186,8 @@ C:\Code\Campervibe\Campervibe\Campervibe.External.UI\bin\System.Net.Http.Formatt
 C:\Code\Campervibe\Campervibe\Campervibe.External.UI\bin\System.Net.Http.Primitives.xml
 C:\Code\Campervibe\Campervibe\Campervibe.External.UI\bin\System.Web.Optimization.xml
 C:\Code\Campervibe\Campervibe\Campervibe.External.UI\bin\System.Web.Helpers.xml
+C:\Code\Campervibe\Campervibe\Campervibe.External.UI\bin\System.Web.Http.xml
+C:\Code\Campervibe\Campervibe\Campervibe.External.UI\bin\System.Web.Http.WebHost.xml
 C:\Code\Campervibe\Campervibe\Campervibe.External.UI\bin\System.Web.Mvc.xml
 C:\Code\Campervibe\Campervibe\Campervibe.External.UI\bin\System.Web.Razor.xml
 C:\Code\Campervibe\Campervibe\Campervibe.External.UI\bin\System.Web.WebPages.xml
