@@ -1,11 +1,11 @@
-﻿using Campervibe.Domain.Common;
-using Campervibe.Domain.Entities;
-using System;
+﻿//using Campervibe.Domain.Common;
+//using Campervibe.Domain.Entities;
+//using System;
 
-namespace Campervibe.Domain.RepositoryContracts
-{
-    public interface IVehicleRepository : IRepository<Vehicle, Guid>
-    {
-    }
-}
+//namespace Campervibe.Domain.RepositoryContracts
+//{
+//    public interface IVehicleRepository : IRepository<Vehicle, Guid>
+//    {
+//    }
+//}
 

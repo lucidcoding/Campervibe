@@ -12,7 +12,7 @@ namespace Campervibe.Data.Core
         }
 
         public DbSet<Depot> Depots { get; set; }
-        public DbSet<Vehicle> Vehicles { get; set; }
+        //public DbSet<Vehicle> Vehicles { get; set; }
         public DbSet<Customer> Customers { get; set; }
         public DbSet<Booking> Bookings { get; set; }
         public DbSet<Permission> Permissions { get; set; }
@@ -24,7 +24,7 @@ namespace Campervibe.Data.Core
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Depot>().ToTable("Depot");
-            modelBuilder.Entity<Vehicle>().ToTable("Vehicle");
+            //modelBuilder.Entity<Vehicle>().ToTable("Vehicle");
             modelBuilder.Entity<Customer>().ToTable("Customer");
             modelBuilder.Entity<Booking>().ToTable("Booking");
             modelBuilder.Entity<Booking>().ToTable("Booking");
@@ -128,25 +128,25 @@ namespace Campervibe.Data.Core
                 .WithMany()
                 .Map(depot => depot.MapKey("LastModifiedById")); 
             
-            modelBuilder.Entity<Vehicle>()
-                .HasOptional<User>(vehicle => vehicle.CreatedBy)
-                .WithMany()
-                .Map(vehicle => vehicle.MapKey("CreatedById"));
+            //modelBuilder.Entity<Vehicle>()
+            //    .HasOptional<User>(vehicle => vehicle.CreatedBy)
+            //    .WithMany()
+            //    .Map(vehicle => vehicle.MapKey("CreatedById"));
             
-            modelBuilder.Entity<Vehicle>()
-                .HasOptional<User>(vehicle => vehicle.LastModifiedBy)
-                .WithMany()
-                .Map(vehicle => vehicle.MapKey("LastModifiedById"));
+            //modelBuilder.Entity<Vehicle>()
+            //    .HasOptional<User>(vehicle => vehicle.LastModifiedBy)
+            //    .WithMany()
+            //    .Map(vehicle => vehicle.MapKey("LastModifiedById"));
 
-            modelBuilder.Entity<Vehicle>()
-                .HasOptional<Depot>(vehicle => vehicle.HomeDepot)
-                .WithMany()
-                .Map(vehicle => vehicle.MapKey("HomeDepotId"));
+            //modelBuilder.Entity<Vehicle>()
+            //    .HasOptional<Depot>(vehicle => vehicle.HomeDepot)
+            //    .WithMany()
+            //    .Map(vehicle => vehicle.MapKey("HomeDepotId"));
 
-            modelBuilder.Entity<Vehicle>()
-                .HasMany<Booking>(bus => bus.Bookings)
-                .WithRequired(booking => booking.Vehicle)
-                .Map(booking => booking.MapKey("VehicleId"));
+            //modelBuilder.Entity<Vehicle>()
+            //    .HasMany<Booking>(bus => bus.Bookings)
+            //    .WithRequired(booking => booking.Vehicle)
+            //    .Map(booking => booking.MapKey("VehicleId"));
 
             modelBuilder.Entity<Invoice>()
                 .HasOptional<User>(invoice => invoice.CreatedBy)

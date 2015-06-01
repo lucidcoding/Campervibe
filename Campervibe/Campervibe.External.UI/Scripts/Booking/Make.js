@@ -6,17 +6,27 @@
             dateFormat: 'dd/mm/yy'
         };
 
+        //$.ajax({
+        //    url: "http://campervibevehicleinventory.azurewebsites.net/vehicle/restindex",
+        //    type: "GET",
+        //    success: function (result) {
+        //        $("#pendingBookingsForVehicleDiv").html(result);
+        //        //initialize();
+        //    },
+        //    error: function (jqXhr, textStatus, errorThrown) {
+        //        alert('error: ' + jqXhr + ', ' + textStatus + ', ' + errorThrown);
+        //    }
+        //});
+
         $('#VehicleId').change(function (event) {
             event.preventDefault();
 
             var vehicleId = $('#VehicleId').val();
 
-            if (vehicleId == "" || vehicleId == null)
-            {
+            if (vehicleId == "" || vehicleId == null) {
                 $("#pendingBookingsForVehicleDiv").empty();
             }
-            else
-            {
+            else {
                 $.ajax({
                     url: "GetPendingForVehicle",
                     data: "vehicleId=" + vehicleId,
@@ -64,7 +74,7 @@
     };
 
     return { initialize: initialize };
-} ();
+}();
 
 
 $(document).ready(function () {

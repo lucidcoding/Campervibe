@@ -34,7 +34,7 @@ namespace Campervibe.External.UI.ViewModelMappers.Booking
                 BookingNumber = booking.BookingNumber,
                 StartDate = booking.StartDate,
                 EndDate = booking.EndDate,
-                MakeAndModel = booking.Vehicle.Make + " " + booking.Vehicle.Model,
+                //MakeAndModel = booking.Vehicle.Make + " " + booking.Vehicle.Model,
                 Total = booking.Total
             }).ToList();
 

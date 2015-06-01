@@ -1,10 +1,11 @@
 ﻿using Campervibe.Domain.Entities;
+using System;
 
 namespace Campervibe.Domain.Requests
 {
     public class CheckInForServicingRequest
     {
-        public Vehicle Vehicle { get; set; }
+        public Guid VehicleId { get; set; }
         public decimal? Mileage { get; set; }
         public User CheckedInBy { get; set; }
     }

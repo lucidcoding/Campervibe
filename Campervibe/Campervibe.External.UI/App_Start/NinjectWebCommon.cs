@@ -20,6 +20,7 @@ namespace Campervibe.External.UI.App_Start
     using Ninject.Web.Mvc.FilterBindingSyntax;
     using Campervibe.External.UI.Logging;
     using Campervibe.Domain.InfrastructureContracts;
+    using Campervibe.External.UI.ServiceProxies.Vehicle;
 
     public static class NinjectWebCommon 
     {
@@ -78,9 +79,11 @@ namespace Campervibe.External.UI.App_Start
             kernel.Bind<IGetPendingForVehicleViewModelMapper>().To<GetPendingForVehicleViewModelMapper>();
             kernel.Bind<IUserProvider>().To<UserProvider>();
             kernel.Bind<IIndexViewModelMapper>().To<IndexViewModelMapper>();
+            kernel.Bind<IVehicleServiceProxy>().To<VehicleServiceProxy>();
             kernel.BindFilter<EntityFrameworkWriteContextFilter>(FilterScope.Action, 1000).WhenActionMethodHas<EntityFrameworkWriteContextAttribute>();
             kernel.BindFilter<EntityFrameworkReadContextFilter>(FilterScope.Action, 1000).WhenActionMethodHas<EntityFrameworkReadContextAttribute>();
             kernel.BindFilter<LogFilter>(FilterScope.Action, 1050).WhenActionMethodHas<LogAttribute>();
+            
             new DataRegistry().RegisterServices(kernel);
         }        
     }

@@ -22,24 +22,26 @@ namespace Campervibe.Domain.UnitTests.Entities.BookingTests
                 FamilyName = "Blue"
             };
 
-            var vehicle = new Vehicle() { 
-                Id = Guid.NewGuid()
-            };
+            var vehicleId = Guid.NewGuid();
 
-            vehicle.Bookings = new List<Booking>()
-            {
-                new Booking() 
-                {
-                    StartDate = new DateTime(2050, 9, 1),
-                    EndDate = new DateTime(2050, 9, 3),
-                    Vehicle = vehicle
-                }
-            };
+            //var vehicle = new Vehicle() { 
+            //    Id = Guid.NewGuid()
+            //};
+
+            //vehicle.Bookings = new List<Booking>()
+            //{
+            //    new Booking() 
+            //    {
+            //        StartDate = new DateTime(2050, 9, 1),
+            //        EndDate = new DateTime(2050, 9, 3),
+            //        VehicleId = vehicleId
+            //    }
+            //};
 
             request.Customer = customer;
             request.StartDate = new DateTime(2050, 10, 1);
             request.EndDate = new DateTime(2050, 10, 3);
-            request.Vehicle = vehicle;
+            request.VehicleId = vehicleId;
 
             var validationMessages = Booking.ValidateMake(request);
 
@@ -57,25 +59,27 @@ namespace Campervibe.Domain.UnitTests.Entities.BookingTests
                 FamilyName = "Blue"
             };
 
-            var vehicle = new Vehicle()
-            {
-                Id = Guid.NewGuid()
-            };
+            var vehicleId = Guid.NewGuid();
 
-            vehicle.Bookings = new List<Booking>()
-            {
-                new Booking() 
-                {
-                    StartDate = new DateTime(2050, 9, 30),
-                    EndDate = new DateTime(2050, 10, 2),
-                    Vehicle = vehicle
-                }
-            };
+            //var vehicle = new Vehicle()
+            //{
+            //    Id = Guid.NewGuid()
+            //};
+
+            //vehicle.Bookings = new List<Booking>()
+            //{
+            //    new Booking() 
+            //    {
+            //        StartDate = new DateTime(2050, 9, 30),
+            //        EndDate = new DateTime(2050, 10, 2),
+            //        VehicleId = vehicleId
+            //    }
+            //};
 
             request.Customer = customer;
             request.StartDate = new DateTime(2050, 10, 1);
             request.EndDate = new DateTime(2050, 10, 3);
-            request.Vehicle = vehicle;
+            request.VehicleId = vehicleId;
 
             var validationMessages = Booking.ValidateMake(request);
 

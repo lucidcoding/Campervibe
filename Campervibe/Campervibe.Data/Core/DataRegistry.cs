@@ -11,7 +11,7 @@ namespace Campervibe.Data.Core
              kernel.Bind<IUserRepository>().To<UserRepository>();
              kernel.Bind<IRoleRepository>().To<RoleRepository>();
              kernel.Bind<IBookingRepository>().To<BookingRepository>();
-             kernel.Bind<IVehicleRepository>().To<VehicleRepository>();
+             //kernel.Bind<IVehicleRepository>().To<VehicleRepository>();
              kernel.Bind<IDepotRepository>().To<DepotRepository>();
              kernel.Bind<ICustomerRepository>().To<CustomerRepository>();
              kernel.Bind<IInvoiceRepository>().To<InvoiceRepository>();

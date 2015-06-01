@@ -18,7 +18,7 @@ namespace Campervibe.Data.Repositories
         {
             return Context
                 .Bookings
-                .Where(booking => booking.StartDate >= DateTime.Now && booking.Vehicle.Id == vehicleId)
+                .Where(booking => booking.StartDate >= DateTime.Now && booking.VehicleId == vehicleId)
                 .OrderByDescending(booking => booking.StartDate)
                 .ToList();
         }
