@@ -22,6 +22,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Campervibe.Domain.UnitTests
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Campervibe.Internal.UI", "Campervibe.Internal.UI\Campervibe.Internal.UI.csproj", "{116BBC29-B8B3-4D7D-BA93-C032ADA3D91D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Campervibe.WebJob", "Campervibe.WebJob\Campervibe.WebJob.csproj", "{384223AC-CAAE-466E-B580-1D6C069A7DBA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -52,6 +54,10 @@ Global
 		{116BBC29-B8B3-4D7D-BA93-C032ADA3D91D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{116BBC29-B8B3-4D7D-BA93-C032ADA3D91D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{116BBC29-B8B3-4D7D-BA93-C032ADA3D91D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{384223AC-CAAE-466E-B580-1D6C069A7DBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{384223AC-CAAE-466E-B580-1D6C069A7DBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{384223AC-CAAE-466E-B580-1D6C069A7DBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{384223AC-CAAE-466E-B580-1D6C069A7DBA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

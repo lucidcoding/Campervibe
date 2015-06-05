@@ -47,8 +47,18 @@ legend.control-label {
 
 .validation-summary-errors
 {
-	font-weight: bold;
 	color: #ff0000;
+}
+
+.validation-summary-errors h2
+{
+    font-size: large;
+}
+
+.validation-summary-errors a
+{
+	color: inherit;
+    text-decoration: underline;
 }
 
 .validation-summary-valid
