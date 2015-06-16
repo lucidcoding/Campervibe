@@ -1,9 +1,9 @@
 ﻿{
   "$schema": "http://schemastore.org/schemas/json/webjob-publish-settings.json",
-  "webJobName": "CampervibeWebJob",
-  "startTime": null,
-  "endTime": null,
-  "jobRecurrenceFrequency": null,
-  "interval": null,
-  "runMode": "Continuous"
+  "webJobName": "Campervibe-WebJob",
+  "startTime": "2015-06-16T22:30:00+00:00",
+  "endTime": "2015-06-17T00:00:00+00:00",
+  "jobRecurrenceFrequency": "Hour",
+  "interval": 1,
+  "runMode": "Scheduled"
 }
