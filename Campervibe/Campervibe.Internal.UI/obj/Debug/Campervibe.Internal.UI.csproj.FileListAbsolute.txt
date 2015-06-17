@@ -193,3 +193,7 @@ C:\Users\Tom.Carter\Documents\GitHub\Campervibe\Campervibe\Campervibe.Internal.U
 C:\Users\Tom.Carter\Documents\GitHub\Campervibe\Campervibe\Campervibe.Internal.UI\obj\Debug\Campervibe.Internal.UI.csprojResolveAssemblyReference.cache
 C:\Users\Tom.Carter\Documents\GitHub\Campervibe\Campervibe\Campervibe.Internal.UI\obj\Debug\Campervibe.Internal.UI.dll
 C:\Users\Tom.Carter\Documents\GitHub\Campervibe\Campervibe\Campervibe.Internal.UI\obj\Debug\Campervibe.Internal.UI.pdb
+C:\Code\Campervibe\Campervibe\Campervibe.Internal.UI\bin\System.Web.Http.dll
+C:\Code\Campervibe\Campervibe\Campervibe.Internal.UI\bin\System.Web.Http.WebHost.dll
+C:\Code\Campervibe\Campervibe\Campervibe.Internal.UI\bin\System.Web.Http.xml
+C:\Code\Campervibe\Campervibe\Campervibe.Internal.UI\bin\System.Web.Http.WebHost.xml

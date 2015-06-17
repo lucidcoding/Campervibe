@@ -58,3 +58,7 @@ C:\Code\Campervibe\Campervibe\Campervibe.WebJob\bin\Release\zh-Hant\Microsoft.Da
 C:\Code\Campervibe\Campervibe\Campervibe.WebJob\obj\Release\Campervibe.WebJob.csprojResolveAssemblyReference.cache
 C:\Code\Campervibe\Campervibe\Campervibe.WebJob\obj\Release\Campervibe.WebJob.exe
 C:\Code\Campervibe\Campervibe\Campervibe.WebJob\obj\Release\Campervibe.WebJob.pdb
+C:\Code\Campervibe\Campervibe\Campervibe.WebJob\bin\Release\Ninject.dll
+C:\Code\Campervibe\Campervibe\Campervibe.WebJob\bin\Release\Ninject.Extensions.Conventions.dll
+C:\Code\Campervibe\Campervibe\Campervibe.WebJob\bin\Release\Ninject.xml
+C:\Code\Campervibe\Campervibe\Campervibe.WebJob\bin\Release\Ninject.Extensions.Conventions.xml
