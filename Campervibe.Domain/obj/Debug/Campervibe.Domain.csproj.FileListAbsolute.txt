@@ -1,0 +1,16 @@
+C:\Users\daviesp\Downloads\MicroserviceMigration\MicroserviceMigration\Marathon\Campervibe.Domain\bin\Debug\Campervibe.Domain.dll.config
+C:\Users\daviesp\Downloads\MicroserviceMigration\MicroserviceMigration\Marathon\Campervibe.Domain\bin\Debug\Campervibe.Domain.dll
+C:\Users\daviesp\Downloads\MicroserviceMigration\MicroserviceMigration\Marathon\Campervibe.Domain\bin\Debug\Campervibe.Domain.pdb
+C:\Users\daviesp\Downloads\MicroserviceMigration\MicroserviceMigration\Marathon\Campervibe.Domain\obj\Debug\Campervibe.Domain.dll
+C:\Users\daviesp\Downloads\MicroserviceMigration\MicroserviceMigration\Marathon\Campervibe.Domain\obj\Debug\Campervibe.Domain.pdb
+C:\Users\daviesp\Downloads\MicroserviceMigration\MicroserviceMigration\Campervibe\Campervibe.Domain\bin\Debug\Campervibe.Domain.dll.config
+C:\Users\daviesp\Downloads\MicroserviceMigration\MicroserviceMigration\Campervibe\Campervibe.Domain\bin\Debug\Campervibe.Domain.dll
+C:\Users\daviesp\Downloads\MicroserviceMigration\MicroserviceMigration\Campervibe\Campervibe.Domain\bin\Debug\Campervibe.Domain.pdb
+C:\Users\daviesp\Downloads\MicroserviceMigration\MicroserviceMigration\Campervibe\Campervibe.Domain\obj\Debug\Campervibe.Domain.csprojResolveAssemblyReference.cache
+C:\Users\daviesp\Downloads\MicroserviceMigration\MicroserviceMigration\Campervibe\Campervibe.Domain\obj\Debug\Campervibe.Domain.dll
+C:\Users\daviesp\Downloads\MicroserviceMigration\MicroserviceMigration\Campervibe\Campervibe.Domain\obj\Debug\Campervibe.Domain.pdb
+C:\Code\Campervibe_before_move\Campervibe\Campervibe.Domain\bin\Debug\Campervibe.Domain.dll.config
+C:\Code\Campervibe_before_move\Campervibe\Campervibe.Domain\bin\Debug\Campervibe.Domain.dll
+C:\Code\Campervibe_before_move\Campervibe\Campervibe.Domain\bin\Debug\Campervibe.Domain.pdb
+C:\Code\Campervibe_before_move\Campervibe\Campervibe.Domain\obj\Debug\Campervibe.Domain.dll
+C:\Code\Campervibe_before_move\Campervibe\Campervibe.Domain\obj\Debug\Campervibe.Domain.pdb
